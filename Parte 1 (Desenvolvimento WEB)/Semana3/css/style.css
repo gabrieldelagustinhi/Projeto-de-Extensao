@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    padding: 10px;
+    background-color: rgb(248, 232, 232);
+}
+
+p {
+    padding: 15px;  
+}
+
+.dados-pessoais{
+    display: flex;
+    align-items: center;
+}
+
+.dados-pessoais img{
+    background-color: rgba(0, 0, 0, .4);
+    padding: 2px;
+}

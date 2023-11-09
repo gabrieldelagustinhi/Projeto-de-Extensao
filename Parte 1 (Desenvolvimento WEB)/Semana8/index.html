@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head> <!-- cabeçalho do programa -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo-dados-pessoais.css">
+    <script language="javascript" src="javaScript/funcoes.js"></script>
+</head>
+
+<body> <!-- corpo do programa - informações que aparecem na tela -->
+    <div id="interface">
+        <header id="cabecalho"> <!-- cabeçalho do corpo -->
+            <h1>CURRICULUM VITAE</h1>
+            <div>
+                <img id="foto_perfil" src="fotos/Foto-curriculum-pequena.jpg" onmousemove="fotoCinza(1)"
+                    onmouseout="fotoCinza(2)" onclick="fotoCinza(3)">
+                <h2 onclick=alerta()>
+                    Gabriel Griebeler Delagustinhi <br />
+                    (51) 99980-9979
+                </h2>
+            </div>
+
+        </header>
+
+        <nav id="menu"> <!-- Menu do corpor do programa -->
+            <h1>Menu principal</h1>
+            <ul>
+                <li><a href="index.html">Dados Pessoais</a></li>
+                <li><a href="fAcademica.html">Fomarção Acadêmica</a></li>
+                <li><a href="cRealizados.html">Cursos Realizados</a></li>
+                <li><a href="eProfissionais.html">Experiências Profissionais</a></li>
+                <li><a href="idiomas.html">Idiomas</a></li>
+                <li><a href="oEmprego.html">Oportunidades de Emprego</a></li>
+                <li><a href="fContato.html">Formulário de Contato</a></li>
+            </ul>
+
+        </nav>
+
+        <main id="conteudo"> <!-- parte onde fica o conteudo do programa -->
+            <section class="conteudo-section" id="dados-pessoais">
+                <h2>Dados Pessoais</h2>
+                <p>
+                    Email: gabrieldelagustinhi@gmail.com <br>
+                    Gênero: Masculino <br>
+                    Estado civil: Solteiro <br>
+                    Data de nascimento: 25/06/1993
+                </p>
+                <audio id="musica" controls autoplay>
+                    <source src="media/som-inicio.mp3" type="audio/mp3">
+                    Desculpe, não foi possível reproduzir o audio
+                </audio>
+            </section>
+
+            <footer class="rodape"> <!-- rodape do corpo do programa -->
+                <div id="elementToShowDateId"></div>
+                <p>
+                    Copyright &copy; 2023 - by Gabriel Delagustinhi <br />
+                    <a href="https://www.facebook.com/gabriel.griebelerdelagustinhi" target="_blank">Facebook</a> /
+                    <a href="https://www.linkedin.com/in/ggdelagustinhi/" target="_blank">Linkedin</a>
+                </p>
+            </footer>
+        </main>
+
+
+    </div>
+
+</body>
+
+</html>

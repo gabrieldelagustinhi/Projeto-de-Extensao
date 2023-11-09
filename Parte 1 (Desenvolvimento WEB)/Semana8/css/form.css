@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+input, textarea {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 9pt;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+input:hover, textarea:hover {
+    background-color: #dddddd;
+}
+
+legend {
+    color: #9e9e9e;
+    font-weight: bold;
+    font-size: 10pt;
+    font-family: sans-serif;
+}
+
+fieldset {
+    border-color: #cecece;
+    margin: 5px;
+}
+
+fieldset#mensagem label {
+    display: flex;
+}
+
+fieldset#mensagem p {
+    margin: 5px;
+    float: left;
+}
+
+input#cBot {
+    margin-left: 20px;
+}
+
+
+
+ 

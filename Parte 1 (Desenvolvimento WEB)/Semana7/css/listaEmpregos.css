@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* Configuração da section da oEmpregos */
+section#oEmpregos {
+    width: 800px;                   /* difine a largura que vai ter */
+    margin: auto;                   /* difine que a margin vai ser automática */
+}
+
+/* Configuração da ul section da oEmpregos */
+section ul#pEmpregos{
+    width: 300px;                    /* difine a largura que vai ter */
+    float: left;                     /* difine que a ul vai flutuar a esquerda */
+    list-style-type: none;           /* retira a formatação de pontos antes da frase */
+    padding: 0px;                    /* difine que o recuo vai ser 0 em volta */  
+}
+
+/* Configuração da a da ul da section da oEMpregos */
+section ul#pEmpregos a{
+    color: black;                 /* difine a cor do texto */
+    text-decoration: none;          /* retira a formatação de hiperlink */
+    margin-top: 15px;               /* difine a altura da margin superior */
+}
+
+/* Configuração da li da ul da section da oEMpregos */
+section ul#pEmpregos li{
+    margin-top: 10px;               /* difine a altura da margin superior */  
+}
+
+/* Configuração do ifreme da section da oEMpregos */
+section iframe#frame-emprego {
+    width: 490px;                    /* difine a largura que vai ter */
+    height: 180px;                   /* difine a altura que vai ter */
+    border: none;                    /* retira a borda que é padrão */
+}

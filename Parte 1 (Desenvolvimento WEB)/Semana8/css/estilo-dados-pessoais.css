@@ -1,0 +1,154 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap');
+@font-face {
+    font-family: 'FonteNome';
+    src: url("../fontes/Exo2-Italic-VariableFont_wght.ttf");
+}
+
+/* Configuração dos p em geral */
+p {                                                      
+    padding-left: 20px;                                /*Configurações área de preenchimento da boda da direita*/
+}
+
+/* Configuração do pagina em geral */
+#interface {
+    width: 1000px;                                      /*Configurações da largura da página*/
+    height: 610px;                                      /*Configurações da altura da página*/
+    margin: -30px auto 0px auto;                        /*Configurações da margin da página*/
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);        /*Configurações da borda sombreada da página*/
+}
+
+/* Configuração do cabeçalho em geral */
+#cabecalho {
+    border-bottom: 2px rgb(51, 51, 51) solid;         /*Configurações da linha inferior entre cabeçalho e main*/
+    width: 79%;                                         /*Configurações da largura do cabeçalho*/
+    height: 300px;                                      /*Configurações da altura do cabeçalho*/
+    float: right;                                       /*Configurações de alinhamento da área do cabeçalho*/
+    padding-left: 1%;                                   /*Configurações da área de preenchimento da direita*/
+    background-color: antiquewhite;                   /*Configurações da cor de fundo da área do cabeçalho*/
+}
+
+/* Configuração do h1 do cabeçalho*/
+#cabecalho h1{
+    text-align: center;                                 /*Configurações do alinhamento do texto de h1 no cabeçalho*/
+    font-family: 'Bitter', serif;                       /*Configurações do tipo de fonte do texto de h1 no cabeçalho*/
+    font-size: 50px;                                    /*Configurações do tamanho do texto de h1 no cabeçalho*/
+    color: #3b3b3b;                                   /*Configurações da cor do texto de h1 no cabeçalho*/
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, .4);       /*Configurações da s0mbra do texto de h1 no cabeçalho*/
+    margin-bottom: 0px;                                 /*Configurações do margin inferior do texto de h1 no cabeçalho*/
+}
+
+/* Configuração do da imagem e do h2 do cabeçalho*/
+#cabecalho div{
+    display: flex;                                      /*Configurações que permite que o elemento div seja organizado dentro do cabeçalho com alinhamenro a esquerda*/
+    align-items: center;                                /*Configurações que alinha os ementos da div centralizado em relação a altura*/
+}
+
+/* Configuração do h2 do cabeçalho*/
+#cabecalho div h2{
+    font-family: 'FonteNome', serif;                    /*Configurações do tipo de fonte do texto de h2 no cabeçalho*/
+    padding: 15px;                                      /*Configurações da área de preenchimento do elemento h2*/
+    color: #3b3b3b;                                   /*Configurações da cor do texto de h2 no cabeçalho*/
+}
+
+/* Configuração da foto do cabeçalho*/
+#cabecalho div img{                         
+    border-radius: 50%;                                 /*Configurações do aredondamento da foto*/
+    background-color: rgba(0, 0, 0, .4);              /*Configurações da borda da foto*/
+    padding: 3px;                                       /*Configurações da área de preenchimento da borda*/
+}
+
+/* Configuração do tamanho da main*/
+#conteudo {
+    width: 79%;                                         /*Configurações da largura de main*/
+    height: 310px;                                      /*Configurações da altura de main*/
+    float: right;                                       /*Configurações do alinhamento de main*/
+    padding-left: 1%;                                   /*Configurações área de preenchimento na esquerda*/
+}
+
+/* Configuração da section */
+#conteudo .conteudo-section{
+    height: 230px;                                      /*Configurações da altura de section dentro de main*/
+}
+
+
+/* Configuração da tabela na section na pagina idiomas */
+#tabela-idiomas {
+    border-spacing: 15px 5px;                           /*Configurações dos espaços das bordas dentro da celula*/
+    margin-right: auto;                                 /*Configurações da margin da tabela*/
+    
+}
+
+/* Configuração da section na pagina formação academica */
+#formacao-academica div{
+    display: flex;                                      /*Configurações que permite que o elemento div seja organizado dentro do cabeçalho com alinhamenro a esquerda*/
+}
+
+/* Configuração da imagem na section na pagina formação academica */
+#formacao-academica img{                                 
+    padding-left: 60px;                                 /*Configurações a área de preenchimento a esquerda*/
+}
+
+/* Configuração do rodapé (footer)  em todas as páginas*/
+#conteudo .rodape {
+    width: 100%;                                        /*Configurações da lagura do rodapé dentro de main*/
+    float: right;                                       /*Configurações do alinhamento do rodapé*/
+}
+
+/* Configuração do paragrafo do rodapé em todas as páginas*/
+#conteudo .rodape p{
+    text-align: center;                                 /*Configurações do alinhamento do texto do rodapé*/
+    margin-block-start: 0px;                            /*Configurações do alinhamento da margin superior do rodapé*/
+}
+
+/* Configuração do paragrafo do rodapé em todas as páginas*/
+#conteudo .rodape div{
+    text-align: right;                                 /*Configurações do alinhamento do texto do rodapé*/
+    padding-right: 10px;                               /*Configurações do alinhamenot lateral do texto*/
+}
+
+
+/* Configuração do menu lateral em todas as páginas*/
+nav#menu {
+    width: 20%;                                         /*Configurações da lagura do menu*/
+    height: 580px;                                      /*Configurações da altura do menu*/
+    background-color: rgb(148, 121, 121);             /*Configurações da cor de fundo*/
+    padding: 30px 0px 0px 0px;                          /*Configurações a área de preenchimento*/                          
+    box-shadow: 2px 0 0 rgb(51, 51, 51);              /*Configurações borda lateral*/
+    float: left;                                        /*Configurações alinhamento do menu*/
+
+}
+
+/* Configuração da UL do menu lateral */
+nav#menu ul {
+    list-style-type: none;                              /*Configurações tirar o estilo de ul*/
+    padding-inline-start: 0px;                          /*Configurações a área de preenchimento*/ 
+}
+
+/* Configuração de cada a da UL do menu lateral */
+nav#menu ul a{
+    color: #ffffff;                                   /*Configurações da cor da letra do menu*/ 
+    font-size: 20px;                                    /*Configurações do tamanho da letra do menu*/
+    padding: 23px 4%;                                   /*Configurações da área de preenchimento*/
+    display: flex;                                      /*Configurações de alinhamento dentro do bloco*/
+}
+
+/* Configuração de cada a da UL do menu lateral quando passar o mouse */
+nav#menu ul a:hover {
+    text-decoration: none;                              /*Configurações que tira o siblinhado quando passa o mouse*/
+}
+
+/* Configuração da li da UL do menu lateral */
+nav#menu li{
+    transition: background-color 1s;                    /*Configurações do tempo de transição*/
+}
+
+/* Configuração da li da UL do menu lateral quando passar o mouse */
+nav#menu li:hover {
+    background-color: #606060;                        /*Configurações da cor de fundo quando o mouse passa*/
+}
+
+/* Configuração da para não aparecer o titulo no menu */
+nav#menu h1{
+    display: none;                                      /*Configurações para não aparecer o título*/
+}

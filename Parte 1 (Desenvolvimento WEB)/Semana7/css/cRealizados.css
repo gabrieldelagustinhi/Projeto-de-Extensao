@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/* Configuração da ol dasection da cRealizados */
+section ol#listasCursos {
+    width: 180px;                   /* difine a largura que vai ter */
+    margin-top: 30px;               /* difine a margem superior */
+    float: left;                    /* difine que a ul vai flutuar a esquerda */
+}
+
+/* Configuração  daul da section da cRealizados */
+ul#album-fotos {
+    width: 550px;                   /* difine a largura que vai ter */
+    height: 200px;                  /* difine a altura que vai ter */
+    margin: 0px;                    /* difine a margem geral */
+    padding: 10px;                  /* difine que o recuo vai ser 10 em volta */
+    overflow: hidden;               /* difine o que acontece quando o conteúdo é maior que a janela */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* Configuração da li da ul da section da cRealizados */
+ul#album-fotos li {
+    float: left;                    /* difine que a ul vai flutuar a esquerda */
+    width: 120px;                   /* difine a largura que vai ter */
+    height: 80px;                   /* difine a altura que vai ter */
+    margin: 35px 0px 0px 10px;      /* difine a margem geral */
+    border: 5px solid bisque;     /* difine a borda */
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .4); /* difine o sombreamento */
+    -webkit-transition: all .2s ease-in;         /* difine recuso de transição */
+}
+
+/* Configuração do span da li da ul da section da cRealizados */
+ul#album-fotos li span {
+    opacity: 0;                               /* difine tranparencia */
+    color: #ffffff;                         /* difine a cor da letra */
+    text-shadow: 1px 1px 1px #000000;       /* difine um retangulo no fundo da letra */
+    background-color: rgba(0, 0, 0, .3);    /* difine o sombreamento */
+    font-size: 7pt;                           /* difine o tamanho da fonte */
+    line-height: 140px;                       /* difine onde vai ficar localizado o texdo verticalmente */
+    padding: 5px;                             /* difine que o recuo vai ser 5 em volta */
+}
+
+/* Configuração a li da ul da section da cRealizados quando passar o mouse*/
+ul#album-fotos li:hover {
+    -webkit-transform: scale(2);              /* difine efeito de transição que da o zoom */
+}
+
+/* Configuração do span da li da ul da section da cRealizados  quando passar o mouse*/
+ul#album-fotos li:hover span {
+    opacity: 1;                               /* difine tranparencia */
+}
+
+/* Configuração da foto01 da li da ul da section da cRealizados */
+ul#album-fotos li#foto01 {
+    background: url('../fotos/informatica.jpg') no-repeat;         /* difine a foto de fundo */
+    background-position: 50% 50%;                                  /* como a foto é maior, difine que vai mostar o meio */
+    background-size: 267px 189px;                                  /* difine o tamanho da foto */                                  
+}
+
+/* Configuração da foto01 da li da ul da section da cRealizados quando passar o mouse*/
+ul#album-fotos li#foto01:hover {
+    background-position: 0px 0px;                                   /* como a foto é maior, difine que vai mostar a partir do canto esquerdo */
+    background-size: 120px 80px;                                    /* define o tamanho da foto a ser mostrada */
+}
+
+ul#album-fotos li#foto02 {
+    background: url('../fotos/certificado-curso-de-eletronica.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 267px 189px;
+}
+
+ul#album-fotos li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 120px 80px;
+}
+
+ul#album-fotos li#foto03 {
+    background: url('../fotos/reset.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 267px 189px;
+}
+
+ul#album-fotos li#foto03:hover {
+    background-position: 0px 0px;
+    background-size: 120px 80px;
+}
